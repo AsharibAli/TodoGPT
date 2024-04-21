@@ -1,0 +1,16 @@
+{
+  "version": 2,
+  "public": false,
+  "devCommand": "uvicorn main:app --reload",
+  "builds": [
+    {
+      "src": "main.py",
+      "use": "@vercel/python"
+    }
+  ],
+  "routes": [
+    {
+      "dest": "main.py"
+    }
+  ]
+}
