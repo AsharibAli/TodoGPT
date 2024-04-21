@@ -1,7 +1,7 @@
 {
   "version": 2,
   "public": false,
-  "devCommand": "uvicorn main:app --host 0.0.0.0 --port 80",
+  "devCommand": "uvicorn main:app --reload",
   "builds": [
     {
       "src": "main.py",
